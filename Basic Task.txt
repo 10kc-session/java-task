@@ -1,0 +1,16 @@
+1. write a java program to print below format by passing command line arguments
+CMD : java ClassName xyz abc pqr 
+o/p : 
+	My Name is xyz
+	My Father Name is abc
+	My Mother Name is pqr
+
+hint :
+main(String[] args){
+	System.out.println("My Name is "+args[0]);
+}
+
+
+2. Write a Java Program to add two arguments by passing from CMD
+	CMD : java ClassName john mark
+	o/p : johnmark
